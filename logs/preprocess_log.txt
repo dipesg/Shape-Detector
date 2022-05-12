@@ -1,0 +1,26 @@
+2022-05-11/10:34:11		Normalizing Images.
+2022-05-11/10:34:12		One hot encoding labels.
+2022-05-11/11:59:57		Normalizing Images.
+2022-05-11/11:59:58		One hot encoding labels.
+2022-05-11/12:06:57		Normalizing Images.
+2022-05-11/12:06:58		One hot encoding labels.
+2022-05-11/12:12:30		Normalizing Images.
+2022-05-11/12:12:31		One hot encoding labels.
+2022-05-11/12:13:57		Normalizing Images.
+2022-05-11/12:13:57		One hot encoding labels.
+2022-05-11/12:15:08		Normalizing Images.
+2022-05-11/12:15:08		One hot encoding labels.
+2022-05-11/12:15:55		Normalizing Images.
+2022-05-11/12:15:56		One hot encoding labels.
+2022-05-12/10:15:14		Normalizing Images.
+2022-05-12/10:16:05		One hot encoding labels.
+2022-05-12/11:48:06		Normalizing Images.
+2022-05-12/11:48:45		One hot encoding labels.
+2022-05-12/11:50:24		Normalizing Images.
+2022-05-12/11:50:29		One hot encoding labels.
+2022-05-12/11:50:58		Normalizing Images.
+2022-05-12/11:51:04		One hot encoding labels.
+2022-05-12/11:51:29		Normalizing Images.
+2022-05-12/11:51:34		One hot encoding labels.
+2022-05-12/11:54:33		Normalizing Images.
+2022-05-12/11:54:38		One hot encoding labels.
