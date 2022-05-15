@@ -26,9 +26,9 @@ class LoadData:
                     #add an integer to the labels list 
                     self.Labels.append(self.Shapes.index(shape))
 
-            print("\nDataset Images size:", len(self.Dataset))
-            print("Image Shape:", self.Dataset[0].shape)
-            print("Labels size:", len(self.Labels))
+            #print("\nDataset Images size:", len(self.Dataset))
+            #print("Image Shape:", self.Dataset[0].shape)
+            #print("Labels size:", len(self.Labels))
             
             return self.Dataset, self.Labels
         
