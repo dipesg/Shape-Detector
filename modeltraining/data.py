@@ -1,10 +1,10 @@
 import os
 import cv2
-import logger
+from logger import App_Logger
 
 class LoadData:
     def __init__(self):
-        self.log_writer = logger.App_Logger()
+        self.log_writer = App_Logger()
         self.file_object = open("../logs/loaddata_log.txt", 'a+')
         self.PATH = "../images/"
         self.IMG_SIZE = 64

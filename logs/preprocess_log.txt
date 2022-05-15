@@ -24,3 +24,155 @@
 2022-05-12/11:51:34		One hot encoding labels.
 2022-05-12/11:54:33		Normalizing Images.
 2022-05-12/11:54:38		One hot encoding labels.
+2022-05-12/15:00:17		Normalizing Images.
+2022-05-12/15:00:17		Exception occured in normalize_data method of the Preprocess class. Exception message:  
+2022-05-12/15:00:17		Exception occured in split_data method of the Preprocess class. Exception message:  
+2022-05-12/15:11:05		Normalizing Images.
+2022-05-12/15:11:05		Exception occured in normalize_data method of the Preprocess class. Exception message:  
+2022-05-12/15:11:05		Exception occured in split_data method of the Preprocess class. Exception message:  
+2022-05-12/15:11:44		Normalizing Images.
+2022-05-12/15:11:44		Exception occured in normalize_data method of the Preprocess class. Exception message:  
+2022-05-12/15:11:44		Exception occured in split_data method of the Preprocess class. Exception message:  
+2022-05-12/15:12:35		Normalizing Images.
+2022-05-12/15:12:35		Exception occured in normalize_data method of the Preprocess class. Exception message:  
+2022-05-12/15:12:35		Exception occured in split_data method of the Preprocess class. Exception message:  
+2022-05-12/15:13:42		Normalizing Images.
+2022-05-12/15:13:42		Exception occured in normalize_data method of the Preprocess class. Exception message:  
+2022-05-12/15:13:42		Exception occured in split_data method of the Preprocess class. Exception message:  
+2022-05-12/15:14:24		Normalizing Images.
+2022-05-12/15:14:37		One hot encoding labels.
+2022-05-12/15:15:14		Normalizing Images.
+2022-05-12/15:15:26		One hot encoding labels.
+2022-05-13/10:15:45		Normalizing Images.
+2022-05-13/10:16:24		One hot encoding labels.
+2022-05-13/10:22:52		Normalizing Images.
+2022-05-13/10:22:57		One hot encoding labels.
+2022-05-13/10:36:30		Normalizing Images.
+2022-05-13/10:37:22		Normalizing Images.
+2022-05-13/10:37:32		One hot encoding labels.
+2022-05-14/09:54:19		Normalizing Images.
+2022-05-14/09:54:54		One hot encoding labels.
+2022-05-14/10:12:26		Normalizing Images.
+2022-05-14/10:12:31		One hot encoding labels.
+2022-05-14/10:26:51		Normalizing Images.
+2022-05-14/10:26:55		One hot encoding labels.
+2022-05-14/10:33:41		Normalizing Images.
+2022-05-14/10:33:45		One hot encoding labels.
+2022-05-14/10:36:02		Normalizing Images.
+2022-05-14/10:36:07		One hot encoding labels.
+2022-05-14/10:37:48		Normalizing Images.
+2022-05-14/10:37:52		One hot encoding labels.
+2022-05-14/10:39:03		Normalizing Images.
+2022-05-14/10:39:07		One hot encoding labels.
+2022-05-14/10:40:19		Normalizing Images.
+2022-05-14/10:40:24		One hot encoding labels.
+2022-05-14/10:54:46		Normalizing Images.
+2022-05-14/10:54:51		One hot encoding labels.
+2022-05-14/10:57:10		Normalizing Images.
+2022-05-14/10:57:14		One hot encoding labels.
+2022-05-14/10:58:27		Normalizing Images.
+2022-05-14/10:58:31		One hot encoding labels.
+2022-05-14/11:00:57		Normalizing Images.
+2022-05-14/11:01:01		One hot encoding labels.
+2022-05-14/11:03:10		Normalizing Images.
+2022-05-14/11:03:15		One hot encoding labels.
+2022-05-14/11:04:14		Normalizing Images.
+2022-05-14/11:04:18		One hot encoding labels.
+2022-05-14/11:05:17		Normalizing Images.
+2022-05-14/11:05:22		One hot encoding labels.
+2022-05-14/11:16:41		Normalizing Images.
+2022-05-14/11:16:45		One hot encoding labels.
+2022-05-14/11:17:56		Normalizing Images.
+2022-05-14/11:18:01		One hot encoding labels.
+2022-05-14/11:18:47		Normalizing Images.
+2022-05-14/11:18:52		One hot encoding labels.
+2022-05-14/11:19:34		Normalizing Images.
+2022-05-14/11:19:38		One hot encoding labels.
+2022-05-14/11:23:45		Normalizing Images.
+2022-05-14/11:23:50		One hot encoding labels.
+2022-05-14/11:24:38		Normalizing Images.
+2022-05-14/11:24:42		One hot encoding labels.
+2022-05-14/11:28:20		Normalizing Images.
+2022-05-14/11:28:24		One hot encoding labels.
+2022-05-14/11:29:06		Normalizing Images.
+2022-05-14/11:29:10		One hot encoding labels.
+2022-05-14/11:36:59		Normalizing Images.
+2022-05-14/11:37:03		One hot encoding labels.
+2022-05-14/11:40:16		Normalizing Images.
+2022-05-14/11:40:21		One hot encoding labels.
+2022-05-14/11:41:20		Normalizing Images.
+2022-05-14/11:41:24		One hot encoding labels.
+2022-05-14/11:42:06		Normalizing Images.
+2022-05-14/11:42:10		One hot encoding labels.
+2022-05-14/11:43:08		Normalizing Images.
+2022-05-14/11:43:13		One hot encoding labels.
+2022-05-14/11:44:38		Normalizing Images.
+2022-05-14/11:44:43		One hot encoding labels.
+2022-05-14/19:52:53		Normalizing Images.
+2022-05-14/19:53:34		One hot encoding labels.
+2022-05-14/19:57:56		Normalizing Images.
+2022-05-14/19:58:06		One hot encoding labels.
+2022-05-14/20:01:57		Normalizing Images.
+2022-05-14/20:02:07		One hot encoding labels.
+2022-05-14/20:05:04		Normalizing Images.
+2022-05-14/20:05:14		One hot encoding labels.
+2022-05-14/20:07:25		Normalizing Images.
+2022-05-14/20:07:35		One hot encoding labels.
+2022-05-14/20:11:54		Normalizing Images.
+2022-05-14/20:12:05		One hot encoding labels.
+2022-05-14/20:20:41		Normalizing Images.
+2022-05-14/20:20:51		One hot encoding labels.
+2022-05-14/20:56:39		Normalizing Images.
+2022-05-14/20:56:50		One hot encoding labels.
+2022-05-14/21:01:46		Normalizing Images.
+2022-05-14/21:01:56		One hot encoding labels.
+2022-05-14/21:03:40		Normalizing Images.
+2022-05-14/21:03:51		One hot encoding labels.
+2022-05-14/21:05:09		Normalizing Images.
+2022-05-14/21:05:19		One hot encoding labels.
+2022-05-14/21:10:47		Normalizing Images.
+2022-05-14/21:10:58		One hot encoding labels.
+2022-05-14/21:12:05		Normalizing Images.
+2022-05-14/21:12:15		One hot encoding labels.
+2022-05-14/21:13:04		Normalizing Images.
+2022-05-14/21:13:14		One hot encoding labels.
+2022-05-14/21:18:10		Normalizing Images.
+2022-05-14/21:18:20		One hot encoding labels.
+2022-05-15/10:48:00		Normalizing Images.
+2022-05-15/10:48:36		One hot encoding labels.
+2022-05-15/11:16:36		Normalizing Images.
+2022-05-15/11:16:46		One hot encoding labels.
+2022-05-15/11:43:10		Normalizing Images.
+2022-05-15/11:43:14		One hot encoding labels.
+2022-05-15/11:55:43		Normalizing Images.
+2022-05-15/11:55:47		One hot encoding labels.
+2022-05-15/12:01:07		Normalizing Images.
+2022-05-15/12:01:11		One hot encoding labels.
+2022-05-15/12:04:19		Normalizing Images.
+2022-05-15/12:04:23		One hot encoding labels.
+2022-05-15/13:13:39		Normalizing Images.
+2022-05-15/13:13:39		Exception occured in normalize_data method of the Preprocess class. Exception message:  [Errno 2] No such file or directory: '../logs/loaddata_log.txt'
+2022-05-15/13:13:39		Exception occured in split_data method of the Preprocess class. Exception message:  
+2022-05-15/13:23:15		Normalizing Images.
+2022-05-15/13:23:15		Exception occured in normalize_data method of the Preprocess class. Exception message:  [Errno 2] No such file or directory: '../logs/loaddata_log.txt'
+2022-05-15/13:23:15		Exception occured in split_data method of the Preprocess class. Exception message:  
+2022-05-15/13:24:37		Normalizing Images.
+2022-05-15/13:24:37		Exception occured in normalize_data method of the Preprocess class. Exception message:  [Errno 2] No such file or directory: '../logs/loaddata_log.txt'
+2022-05-15/13:24:37		Exception occured in split_data method of the Preprocess class. Exception message:  
+2022-05-15/13:31:12		Normalizing Images.
+2022-05-15/13:31:12		Exception occured in normalize_data method of the Preprocess class. Exception message:  [Errno 2] No such file or directory: '../logs/loaddata_log.txt'
+2022-05-15/13:31:12		Exception occured in split_data method of the Preprocess class. Exception message:  
+2022-05-15/13:34:35		Normalizing Images.
+2022-05-15/13:35:07		One hot encoding labels.
+2022-05-15/13:42:07		Normalizing Images.
+2022-05-15/13:42:12		One hot encoding labels.
+2022-05-15/13:42:52		Normalizing Images.
+2022-05-15/13:42:56		One hot encoding labels.
+2022-05-15/13:46:26		Normalizing Images.
+2022-05-15/13:46:31		One hot encoding labels.
+2022-05-15/13:46:57		Normalizing Images.
+2022-05-15/13:47:02		One hot encoding labels.
+2022-05-15/15:13:10		Normalizing Images.
+2022-05-15/15:13:50		One hot encoding labels.
+2022-05-15/15:18:58		Normalizing Images.
+2022-05-15/15:19:08		One hot encoding labels.

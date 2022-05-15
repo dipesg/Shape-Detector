@@ -2,7 +2,7 @@ import numpy as np
 from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 import logger
-from data import LoadData
+import data
 class Preprocess:
     def __init__(self):
         self.log_writer = logger.App_Logger()
@@ -11,7 +11,7 @@ class Preprocess:
     def normalize_data(self):
         try:
             self.log_writer.log(self.file_object, 'Normalizing Images.')
-            dataset, labels = LoadData().load_data()
+            dataset, labels = data.LoadData().load_data()
             Dataset = np.array(dataset)
             Dataset = Dataset.astype("float32") / 255.0
 
@@ -29,7 +29,6 @@ class Preprocess:
         try:
             dataset, labels = self.normalize_data()
             X_train, X_test, y_train, y_test = train_test_split(dataset, labels, test_size=0.2, random_state=42)
-            print(X_test.shape[0])
             return X_train, X_test, y_train, y_test
          
         
