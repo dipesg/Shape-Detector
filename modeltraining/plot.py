@@ -20,7 +20,7 @@ class Plot:
             ax.title.set_text(shapes[np.argmax(y[ind])])
             ax.set_xticks([]) 
             ax.set_yticks([])
-        plt.savefig("../plot/predict_plot.png")
+        plt.savefig("../plot_fig/predict_plot.png")
         plt.show()
         
     def predict(self):

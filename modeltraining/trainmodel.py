@@ -92,9 +92,9 @@ class TrainModel:
     """
             
     def predict(self):
-        model.Model().build(numChannels=3, imgRows=64, imgCols=64, numClasses=4, pooling="max", activation="relu")
-        model.compile(loss= "categorical_crossentropy", optimizer= opt, metrics= ["accuracy"])
-        pred = model.predict(self.testX)
+        predict_model = model.Model().lenet(numChannels=3, imgRows=64, imgCols=64, numClasses=4, pooling="max", activation="relu")
+        predict_model.compile(loss= "categorical_crossentropy", optimizer= opt, metrics= ["accuracy"])
+        pred = predict_model.predict(self.testX)
         plotter = plot.Plot()
         plotter.draw_plot(8, self.testX, pred)
         
@@ -131,6 +131,6 @@ if __name__ == "__main__":
     trainmodel = TrainModel()
     #trainmodel.train_alexnet()
     #trainmodel.plot_loss()
-    #trainmodel.predict()
-    trainmodel.plot_accuracy()
+    trainmodel.predict()
+    #trainmodel.plot_accuracy()
     
