@@ -39,12 +39,12 @@ class TrainModel:
         
 
     def train_with_maxpool(self):
-            self.model1 = model.Model().lenet(numChannels=3, imgRows=64, imgCols=64, numClasses=4, pooling="max", activation="relu")
-            self.model1.compile(loss= "categorical_crossentropy", optimizer= opt, metrics= ["accuracy"])
-            H1 = self.model1.fit(self.trainX, self.trainY, validation_data= (self.testX, self.testY), batch_size= BS, epochs= EPOCHS, verbose=1)
+            model1 = model.Model().lenet(numChannels=3, imgRows=64, imgCols=64, numClasses=4, pooling="max", activation="relu")
+            model1.compile(loss= "categorical_crossentropy", optimizer= opt, metrics= ["accuracy"])
+            H1 = model1.fit(self.trainX, self.trainY, validation_data= (self.testX, self.testY), batch_size= BS, epochs= EPOCHS, verbose=1)
             # Evaluate the train and test data
-            scores_train = self.model1.evaluate(self.trainX, self.trainY, verbose= 1)
-            scores_test = self.model1.evaluate(self.testX, self.testY, verbose= 1)
+            scores_train = model1.evaluate(self.trainX, self.trainY, verbose= 1)
+            scores_test = model1.evaluate(self.testX, self.testY, verbose= 1)
             
             # save the model to disk
             #filename = '../trainedmodel/model/finalized_model.sav'
@@ -57,9 +57,9 @@ class TrainModel:
         
     def train_with_avgpool(self):
         try:
-            self.model2 = model.Model().build(numChannels=3, imgRows=64, imgCols=64, numClasses=4, pooling= "average", activation="relu")
-            self.model2.compile(loss= "categorical_crossentropy", optimizer= opt, metrics= ["accuracy"])
-            H2 = self.model2.fit(self.trainX, self.trainY, validation_data= (self.testX, self.testY), batch_size= BS,
+            model2 = model.Model().lenet(numChannels=3, imgRows=64, imgCols=64, numClasses=4, pooling= "average", activation="relu")
+            model2.compile(loss= "categorical_crossentropy", optimizer= opt, metrics= ["accuracy"])
+            H2 = model2.fit(self.trainX, self.trainY, validation_data= (self.testX, self.testY), batch_size= BS,
                 epochs= EPOCHS, verbose=1)
 
             # Evaluate the train and test data
@@ -99,18 +99,18 @@ class TrainModel:
         plotter.draw_plot(8, self.testX, pred)
         
     def plot_accuracy(self):
-        #H1 = self.train_with_maxpool()
-        H2 = self.train_with_avgpool()
-        #plt.figure(figsize=(15,5))
-        #plt.plot(np.arange(0, EPOCHS), H1.history["acc"], label="Max Pool Train Acc")
-        #plt.plot(np.arange(0, EPOCHS), H1.history["val_acc"], label="Max Pool Test Acc")
-        plt.plot(np.arange(0, EPOCHS), H2.history["acc"], label="Avg Pool Train Acc")
-        plt.plot(np.arange(0, EPOCHS), H2.history["val_acc"], label="Avg Pool Test Acc")
+        H1 = self.train_with_maxpool()
+        #H2 = self.train_with_avgpool()
+        plt.figure(figsize=(15,5))
+        plt.plot(np.arange(0, EPOCHS), H1.history["acc"], label="Max Pool Train Acc")
+        plt.plot(np.arange(0, EPOCHS), H1.history["val_acc"], label="Max Pool Test Acc")
+        #plt.plot(np.arange(0, EPOCHS), H2.history["acc"], label="Avg Pool Train Acc")
+        #plt.plot(np.arange(0, EPOCHS), H2.history["val_acc"], label="Avg Pool Test Acc")
         plt.title("Comparing Models Train\Test Accuracy")
         plt.xlabel("Epoch #")
         plt.ylabel("Accuracy")
         plt.legend(loc="upper left")
-        plt.savefig("../plot/accuracyavgpool.png")
+        plt.savefig("../plot_fig/accuracymaxpool.png")
         plt.show()
     
     def plot_loss(self):
@@ -124,7 +124,7 @@ class TrainModel:
         plt.xlabel("Epoch #")
         plt.ylabel("Loss")
         plt.legend(loc="upper left")
-        plt.savefig("../plot_fig/loss.png")
+        plt.savefig("../plot_fig/loss_avgpool.png")
         plt.show()
         
 if __name__ == "__main__":
@@ -132,4 +132,5 @@ if __name__ == "__main__":
     #trainmodel.train_alexnet()
     #trainmodel.plot_loss()
     #trainmodel.predict()
+    trainmodel.plot_accuracy()
     

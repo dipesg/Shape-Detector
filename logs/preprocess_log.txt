@@ -176,3 +176,14 @@
 2022-05-15/15:13:50		One hot encoding labels.
 2022-05-15/15:18:58		Normalizing Images.
 2022-05-15/15:19:08		One hot encoding labels.
+2022-05-15/15:35:43		Normalizing Images.
+2022-05-15/15:35:43		Exception occured in normalize_data method of the Preprocess class. Exception message:  
+2022-05-15/15:35:43		Exception occured in split_data method of the Preprocess class. Exception message:  
+2022-05-15/15:36:18		Normalizing Images.
+2022-05-15/15:36:28		One hot encoding labels.
+2022-05-15/15:37:19		Normalizing Images.
+2022-05-15/15:37:29		One hot encoding labels.
+2022-05-15/15:42:03		Normalizing Images.
+2022-05-15/15:42:13		One hot encoding labels.
+2022-05-15/15:48:10		Normalizing Images.
+2022-05-15/15:48:21		One hot encoding labels.

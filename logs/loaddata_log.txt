@@ -372,3 +372,21 @@
 2022-05-15/15:19:00		Loading data...square
 2022-05-15/15:19:03		Loading data...triangle
 2022-05-15/15:19:05		Loading data...star
+2022-05-15/15:35:43		Loading data...circle
+2022-05-15/15:35:43		Exception occured in load_data method of the LoadData class. Exception message:  [WinError 3] The system cannot find the path specified: '../images/circle'
+2022-05-15/15:36:18		Loading data...circle
+2022-05-15/15:36:21		Loading data...square
+2022-05-15/15:36:23		Loading data...triangle
+2022-05-15/15:36:25		Loading data...star
+2022-05-15/15:37:19		Loading data...circle
+2022-05-15/15:37:21		Loading data...square
+2022-05-15/15:37:24		Loading data...triangle
+2022-05-15/15:37:26		Loading data...star
+2022-05-15/15:42:03		Loading data...circle
+2022-05-15/15:42:05		Loading data...square
+2022-05-15/15:42:08		Loading data...triangle
+2022-05-15/15:42:10		Loading data...star
+2022-05-15/15:48:10		Loading data...circle
+2022-05-15/15:48:13		Loading data...square
+2022-05-15/15:48:15		Loading data...triangle
+2022-05-15/15:48:18		Loading data...star
